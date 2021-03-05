@@ -1,0 +1,95 @@
+html {
+  background: linear-gradient(rgba(38,50,56,0.7) 10%,rgba(38,50,56,0.7)), url("galaxy.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "one_dayregular";
+  src: url("oneday-webfont.woff2") format("woff2"),
+    url("oneday-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "one_dayregular";
+  font-weight: 100;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+table,
+th,
+td {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+table {
+  width: 75%;
+  table-layout: fixed;
+  margin-bottom: 25px;
+}
+
+td {
+  word-wrap: break-word;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 50px;
+}
+
+th {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  margin-top: 10%;
+  font-size: 150px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 30%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+input[type="submit"] {
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: one_dayregular;
+}
+
+input[type="submit"]:hover {
+  background: white;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+h2 {
+  font-size: 50px;
+}
